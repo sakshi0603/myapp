@@ -1,0 +1,13 @@
+.box{
+    display:flex;
+    justify-content: flex-start;
+}
+/* input{
+    height: 21px;
+    border-radius: 5px;
+    width:87px;
+    
+} */
+.box div{
+    margin-left: 55px;
+}

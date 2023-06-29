@@ -1,0 +1,31 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.first,.second,.third,.fourth{
+    margin:20px;
+}
+
+.field{
+    margin: 0 0 15px;
+    display: inline-block;
+    padding: 0 10px;
+    width:18%;
+}
+
+.fourth> .field{
+    width:23%;
+}
+
+input,select{
+    height: 31px;
+    border-radius: 5px;
+    width:100%;
+    margin:5px 0;
+    background-color: #ffffff ;
+    font-family:'Roboto';
+}
+
+hr{
+    color:grey;
+}

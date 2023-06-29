@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.first, .second,.third,.fourth,.fifth{
+    margin:20px;
+}
+
+.field{
+    display: inline-block;
+    padding:0 10px;
+    width: 23%;
+}
+
+.second > .field{
+    width: 18%;
+}
+
+input,select{
+    height: 30px;
+    border-radius: 5px;
+    width:100%;
+    margin:5px 0;
+    background-color: #ffffff ;
+    font-family:'Roboto';
+    border:1px solid;
+}
+
+button{
+    background: blue;
+    color:white;
+    height:37px;
+    width:100px;
+    border-radius: 2px;
+    font-size: 18px;
+}
+.btn{
+        display: flex;
+        justify-content: space-evenly;
+    
+}

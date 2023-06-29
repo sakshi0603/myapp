@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
+    margin: 10px;
+}
+
+.field {
+    display: inline-block;
+    padding: 0 10px;
+    width: 23%;
+    margin-right: 2%; /* Add a small margin between fields */
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  
+
+.second>.field {
+    width: 15%;
+}
+
+input,
+select {
+    height: 30px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 5px 0;
+    background-color: #ffffff;
+    font-family: 'Roboto';
+    border: 1px solid;
+}
+
+button {
+    background: blue;
+    color: white;
+    border-color: white;
+    height: 37px;
+    width: 100px;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    padding: "20px";
+    width: '175vh';
+}
+
+label {
+    -webkit-text-fill-color: black;
+}
+
+.flex{
+    display: flex;
+}
